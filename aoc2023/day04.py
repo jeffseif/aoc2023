@@ -30,7 +30,6 @@ class Card:
         return 1 << (self.matches - 1) if self.matches > 0 else 0
 
 
-# @aoc2023.expects(13)
 @aoc2023.expects(17782)
 def part_one(path_to_input: str) -> int:
     with open(file=path_to_input) as f:
