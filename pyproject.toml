@@ -9,3 +9,7 @@ dependencies = ["more_itertools"]
 
 [dependency-groups]
 dev = ["pre-commit"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
